@@ -251,7 +251,7 @@ class LogRecord:
 
 root = Logger("root")
 root.setLevel(WARNING)
-sh = StreamHandler()
-sh.formatter = Formatter()
-root.addHandler(sh)
+#sh = StreamHandler()
+#sh.formatter = Formatter()
+#root.addHandler(sh)
 _loggers = {"root": root}
