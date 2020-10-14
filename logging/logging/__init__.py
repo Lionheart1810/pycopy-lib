@@ -84,6 +84,10 @@ class Logger:
             self.handlers = []
         self.handlers.append(hdlr)
 
+    def removeHandler(self, hdlr):
+        if(self.handlers is not None):
+            self.handlers.remove(hdlr)
+
 
 def getLogger(name=None):
     if name is None:
