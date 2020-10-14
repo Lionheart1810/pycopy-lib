@@ -150,7 +150,8 @@ class StreamHandler(Handler):
         self.flush()
 
     def flush(self):
-        self._stream.flush()
+        #self._stream.flush()
+        pass
 
 
 class FileHandler(StreamHandler):
